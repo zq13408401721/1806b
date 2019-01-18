@@ -1,0 +1,12 @@
+1.拉取服务器仓库到本地
+git clone http://xxxxx(服务器git地址)
+2.在git项目里面添加新的文件到本地
+git add . (点号表示添加当前目录所有新建的文件)  
+git add test1.txt  word.doc  main.java(添加单个或多个文件)
+3.提交本地修改文件到本地仓库
+git commit -m "当前修改的描述"
+例如：git commit -m "添加test1.txt,word.doc,main.java文件"
+4.提交本地仓库文件到git服务器
+git push
+5.更新git项目到本地
+git pull
